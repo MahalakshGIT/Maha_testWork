@@ -23,7 +23,7 @@ public class HomePage extends ProjectSpecificMethods{
 	//W/O_mandatoryFields  //Editcase
 	public HomePage clickCasesTab() throws InterruptedException{
 	
-		Thread.sleep(10000);
+		Thread.sleep(5000);
 		WebElement we_casesTab = driver.findElement(By.xpath("//span[text()='Cases']"));
 		js.executeScript("arguments[0].click();", we_casesTab);// Instead Selenium Click use JAVASCRIPT click
 	
